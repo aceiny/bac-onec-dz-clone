@@ -6,7 +6,17 @@ import ResultWindow from "../comps/result";
 const Main = () => { 
     let email = useRef()
     useEffect(
+        
         ()=>{
+            function getRandomColor() {
+                const red = Math.floor(Math.random() * 230);
+                const green = Math.floor(Math.random() * 230);
+                const blue = Math.floor(Math.random() * 230);
+              
+                const color = `rgb(${red}, ${green}, ${blue})`;
+                return color;
+              }
+              document.body.style.backgroundColor = getRandomColor()
             function random(min,max) {
                 return (Math.random() * (max - min) + min).toFixed(2)
             }
