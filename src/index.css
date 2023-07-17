@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Cairo";
+}
+body {
+  direction: rtl;
+  min-height: 100vh;
+  background-color: #5B443D;
+  padding: 7px 0;
+}
+@media (width<600px) {
+  .result-one-info{
+    font-size: 13px;
+  }
+}
+@media (width < 900px) {
+  .form-input input{
+    padding: 0px 10px;
+  }
+  .chorot p {
+    font-size: 14px;
+  }
+  .header-infos-1 {
+    font-size: 28px;
+}
+.header-infos-2{
+    font-size: 11px;
+}
+.header-infos-3{
+    font-size: 11px;
+}
+.form-cnt{
+  width: 85%;
+}
+.header-top button{
+  font-size: 12px;
+}
+.try20-notif{
+  font-size: 11.5px;
+}
+}
+
+
+@media (width < 560px ) {
+  .result-one-info,.result-head{
+    font-size: 10px ;
+  }
+  .first-footer {
+    font-size: 14px;
+  }
+  .second-footer{
+    font-size: 10px;
+  }
+  .rightsqrtquest,.sqrt-qst-input{
+    font-size: 12px;
+  }
+  .chorot p {
+    font-size: 11.5px;
+  }
+  .header-top p,.header-top button{
+    font-size: 12px;
+}
+  .header-top button{
+    font-size: 10px;
+  }
+  .try20-notif{
+    font-size: 9px;
+  }
+  .form-label .info-save{
+    font-size: 10px;
+  }
+  .form-label .label-title{
+    font-size: 12px;
+  }
+  .form-label .label-extra{
+    font-size: 10px;
+  }
+}
+@media (width<467px) {
+  .result-one-info,.result-head{
+    font-size: 7px;
+  }
+  .rightsqrtquest,.sqrt-qst-input{
+    font-size: 10px;
+  }
+  .chorot p{font-size: 7.8px;}
+  .header-top p,.header-top button{
+    font-size: 9px;
+  }
+  .try20-notif{
+    font-size: 7px;
+  }
+  .form-label .info-save{
+    font-size: 7px;
+  }
+  .form-label .label-title{
+    font-size: 9px;
+  }
+  .form-label .label-extra{
+    font-size: 7px;
+  }
+  
+}
+@media (width < 370px) {
+  .result-one-info,.result-head{
+    font-size: 5px ;
+  }
+}
+@media (width < 360px ) {
+  .result-one-info{
+    font-size: 3px ;
+  }
+  .first-footer {
+    font-size: 10px;
+  }
+  .second-footer{
+    font-size: 7px;
+  }
+  .chorot p{font-size: 6px;}
+  .header-top p,.header-top button{font-size: 8px;}
+  .logo-text , .logo-text-1, .logo-text-2 ,.logo-text-3 {
+    font-size: 10px;
+  }
+  .try20-notif{
+    font-size: 6px;
+  }
+  .form-label .info-save{
+    font-size: 5px;
+  }
+  .form-label .label-title{
+    font-size: 7px;
+  }
+  .form-label .label-extra{
+    font-size: 5px;
+  }
+}
+
+
+@media (width <= 260px) {
+  .result-one-info,.result-head{
+    font-size: 2px;
+  }
+  .logo-text , .logo-text-1, .logo-text-2 ,.logo-text-3 {
+    font-size: 6px;
+  }
+  .header-top p,.header-top button{
+    font-size: 7px;
+  }
+  .try20-notif{
+    font-size: 5px;
+  }
+  .form-label .info-save{
+    font-size: 4px;
+  }
+  .form-label .label-title{
+    font-size: 5px;
+  }
+  .form-label .label-extra{
+    font-size: 4px;
+  }
+}

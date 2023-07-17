@@ -1,0 +1,215 @@
+.result-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+.form-cnt {
+    width: 580px;
+    border-radius: 4px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+
+}
+.chorot {
+    margin-bottom: 5px;
+    gap: 6px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.header-top{
+    gap: 5px;
+}
+.header-top p {
+    font-size: 15px;
+    font-weight: 700;
+}
+.header-top button {
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 7.5px;
+    width: 18%;
+    outline: none;
+    border: none;
+    background-color: #4caf50;
+}
+.header-top button:hover {
+    color: black;
+    background-color: #FFEB3B;
+    box-shadow:
+  0px 1.5px 13.7px rgba(0, 0, 0, 0.027),
+  0px 3.4px 24.3px rgba(0, 0, 0, 0.039),
+  0px 5.7px 32.8px rgba(0, 0, 0, 0.048),
+  0px 8.8px 39.8px rgba(0, 0, 0, 0.056),
+  0px 13.1px 46.2px rgba(0, 0, 0, 0.064),
+  0px 19.2px 53.1px rgba(0, 0, 0, 0.072),
+  0px 28.8px 62.1px rgba(0, 0, 0, 0.081),
+  0px 45.9px 77.2px rgba(0, 0, 0, 0.093),
+  0px 86px 117px rgba(0, 0, 0, 0.12)
+;
+}
+.try20-notif {
+    width: 100%;
+    color: #F44336;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.form-input{
+    width: 100%;
+}
+.form-label{
+    width: 100%;
+
+}
+.form-label .info-save{ 
+    font-size: 12px;
+    color: #F44336;
+    display: none;
+}
+.form-label .label-title{
+    font-size: 15px;
+}
+.form-label .label-extra { 
+    font-size: 12px;
+}
+.form-content { 
+    width: 100%;
+}
+.fi  {
+    width: 100%;
+}
+.form-input input{
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+}
+.form-input input:hover {
+    color: white;
+    background-color: #F44336;;
+}
+.rightsqrtquest{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.makebold{ 
+    font-weight: 700;
+}
+.sqrt-qst-input input{
+    width: 70%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-bottom: 6px solid rgba(0, 0, 0, 0.171);
+}
+.sqrt-qst-input input:hover {
+    background-color: #F44336;
+}
+.showrslt {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.showrslt:hover {
+    color: black;
+    background-color: #FFEB3B;
+    box-shadow:
+  0px 1.5px 13.7px rgba(0, 0, 0, 0.027),
+  0px 3.4px 24.3px rgba(0, 0, 0, 0.039),
+  0px 5.7px 32.8px rgba(0, 0, 0, 0.048),
+  0px 8.8px 39.8px rgba(0, 0, 0, 0.056),
+  0px 13.1px 46.2px rgba(0, 0, 0, 0.064),
+  0px 19.2px 53.1px rgba(0, 0, 0, 0.072),
+  0px 28.8px 62.1px rgba(0, 0, 0, 0.081),
+  0px 45.9px 77.2px rgba(0, 0, 0, 0.093),
+  0px 86px 117px rgba(0, 0, 0, 0.12)
+;
+}
+.switch {
+ --secondary-container: #A70107;
+ --primary: #009900;
+ font-size: 17px;
+ position: relative;
+ display: inline-block;
+ width: 2.6em;
+ height: 0.8em;
+}
+
+.switch input {
+ display: none;
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #313033;
+ transition: .2s;
+ border-radius: 30px;
+}
+
+.slider:before {
+ position: absolute;
+ content: "";
+ height: 1.2em;
+ width: 1.2em;
+ border-radius: 20px;
+ left: -0.1em;
+ bottom: -0.2em;
+ background-color: #aeaaae;
+ transition: .4s;
+}
+
+input:checked + .slider::before {
+ background-color: var(--primary);
+}
+
+input:checked + .slider {
+ background-color: var(--secondary-container);
+}
+
+input:focus + .slider {
+ box-shadow: 0 0 1px var(--secondary-container);
+}
+
+input:checked + .slider:before {
+ transform: translateX(1.5em);
+}
+.chorot-err{
+    font-size: 15px;
+    color: #F44336;
+    display: none;
+}
+.qstanswrerr{
+    font-size: 15px;
+    color: #F44336;
+    display: none;
+}

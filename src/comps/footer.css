@@ -1,0 +1,26 @@
+.footer { 
+    margin: 50px 0 25px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first-footer {
+    font-size: 18px;
+    text-align: center;
+}
+.second-footer {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
